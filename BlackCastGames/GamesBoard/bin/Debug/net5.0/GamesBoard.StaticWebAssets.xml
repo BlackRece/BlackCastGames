@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Blazorise" Path="D:\Users\Maurice\.nuget\packages\blazorise\0.9.5.7\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Blazorise.Bootstrap" Path="D:\Users\Maurice\.nuget\packages\blazorise.bootstrap\0.9.5.7\build\..\staticwebassets\" />
+  <ContentRoot BasePath="/" Path="D:\Documents\GitHub\BlackCastGames\BlackCastGames\GamesBoard\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Documents\GitHub\BlackCastGames\BlackCastGames\GamesBoard\obj\Debug\net5.0\scopedcss\bundle\" />
+</StaticWebAssets>

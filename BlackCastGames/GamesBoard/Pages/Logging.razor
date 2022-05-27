@@ -1,0 +1,22 @@
+﻿@page "/logging"
+@using Serilog
+
+<h3>Logging</h3>
+<Button Color="Color.Warning" Size="Size.Large" @onclick="LogWarning">Warning</Button>
+<Button Color="Color.Danger" Size="Size.Large" @onclick="LogError">Error</Button>
+<Button Color="Color.Info" Size="Size.Large" @onclick="LogInfo">Info</Button>
+@code {
+
+    private void LogWarning() {
+        Log.Warning("Warning Message");
+    }
+
+    private void LogError() {
+        Log.Error("Error Message");
+    }
+
+    private void LogInfo() {
+        Log.Information("Information Message");
+    }
+
+}
